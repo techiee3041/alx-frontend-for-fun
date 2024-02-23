@@ -1,0 +1,13 @@
+$base-font: 14px;
+$header-font: 16px;
+$small-header-font: 12px;
+
+body {
+    font-size: $base-font;
+    h1{
+        font-size: $header-font;
+        .smaller {
+            font-size: $small-header-font;
+        }
+    }
+}
