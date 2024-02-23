@@ -1,0 +1,15 @@
+@mixin margins ($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+}
+
+$base-margin: 10px;
+$container-margin: 15px;
+
+body {
+    @include margins($base-margin, $base-margin)
+}
+
+div {
+    @include margins($container-margin, $container-margin)
+}
