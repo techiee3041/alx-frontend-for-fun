@@ -2,8 +2,12 @@ $base-font: 12px;
 $succes-color: #00FF00;
 $warning-clor: #FF0000;
 
-.info {
+@mixin info {
     font-size: $base-font;
+}
+
+.info {
+    @include info;
 }
 
 .sucess {
