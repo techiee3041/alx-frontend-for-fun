@@ -1,21 +1,20 @@
-$base-font: 12px;
-$succes-color: #00FF00;
-$warning-clor: #FF0000;
+/*  Extended */
 
 @mixin info {
-    font-size: $base-font;
-}
-
-.info {
+    font-size: 12px;
+  }
+  
+  .info {
     @include info;
-}
-
-.sucess {
+  }
+  
+  .success {
     @extend .info;
-    color: $succes-color;
-}
-
-.warning {
-    @extend.info;
-    color: $warning-clor;
-}
+    color: #00FF00;
+  }
+  
+  .warning {
+    @extend .info;
+    color: #FF0000;
+  }
+  
