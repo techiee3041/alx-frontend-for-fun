@@ -1,0 +1,17 @@
+$base-font: 12px;
+$succes-color: #00FF00;
+$warning-clor: #FF0000;
+
+.info {
+    font-size: $base-font;
+}
+
+.sucess {
+    @extend .info;
+    color: $succes-color;
+}
+
+.warning {
+    @extend.info;
+    color: $warning-clor;
+}
